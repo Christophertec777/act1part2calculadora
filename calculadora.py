@@ -18,5 +18,5 @@ def main():
     print("Multiplicación:", multiplicacion(5, 3))
     print("División:", division(5, 3))
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
