@@ -4,9 +4,13 @@ def suma(a, b):
 def resta(a, b):
     return a - b
 
+def multiplicacion(a, b):
+    return a * b
+
 def main():
     print("Suma:", suma(5, 3))
     print("Resta:", resta(5, 3))
+    print("Multiplicación:", multiplicacion(5, 3))
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
